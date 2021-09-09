@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    // orientar o TPscrypt que os arquivis que vamos importar vem de dentro da pasta src
     "baseUrl": "./src",
     "target": "es5",
     "lib": [
