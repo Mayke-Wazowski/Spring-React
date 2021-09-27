@@ -17,16 +17,16 @@ function App() {
             <h5 className="text-center text-secondary">Taxa de Sucesso</h5>
             <BarChart />
           </div>
-           {/* o BootStrap separa o layot em 12 partes, estamos usando somente 6*/}
-          <div className="col-sm-6">
-            <h5 className="text-center text-secondary">Taxa de Sucesso</h5>
-            <DonutChart />
-          </div>
-        </div>
+                {/* o BootStrap separa o layot em 12 partes, estamos usando somente 6*/}
+                <div className="col-sm-6">
+                  <h5 className="text-center text-secondary">Taxa de Sucesso</h5>
+                  <DonutChart />
+                </div>
+            </div>
 
-        <div className="py-3">
-          <h2 className="text-primary">Todas Vendas</h2>
-        </div>
+            <div className="py-3">
+              <h2 className="text-primary">Todas Vendas</h2>
+            </div>
 
         <DataTable />
       </div>
